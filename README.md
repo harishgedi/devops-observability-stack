@@ -661,10 +661,8 @@ python tests/security/vulnerability_scan.py
 - **Name**: Gedi Harish
 - **GitHub**: [@harishgedi](https://github.com/harishgedi)
 - **LinkedIn**: [linkedin.com/in/harishgedi](https://linkedin.com/in/harishgedi)
-- **Email**: harish.gedi@stanford.edu
-- **Twitter**: [@harishgedi](https://twitter.com/harishgedi)
+- **Email**: harishgedi9@gmail.com
 
----
 
 ## 🎉 **Project Status: PRODUCTION READY**
 
@@ -842,3 +840,4 @@ This project follows agile methodology with:
 - **Monitoring**: Comprehensive observability
 - **Performance**: Optimized for production workloads
 - **Documentation**: Complete technical documentation
+
