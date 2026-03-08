@@ -1,0 +1,110 @@
+{
+  "test_summary": {
+    "total_tests": 14,
+    "passed": 2,
+    "failed": 12,
+    "errors": 0,
+    "success_rate": 14.285714285714285
+  },
+  "test_results": [
+    {
+      "name": "Docker Installation",
+      "status": "FAIL",
+      "duration": 0.004001140594482422,
+      "details": "Test failed",
+      "timestamp": 1772899894.836433
+    },
+    {
+      "name": "Docker Compose Installation",
+      "status": "FAIL",
+      "duration": 0.003004312515258789,
+      "details": "Test failed",
+      "timestamp": 1772899894.8394372
+    },
+    {
+      "name": "Configuration Files",
+      "status": "PASS",
+      "duration": 0.17527174949645996,
+      "details": "Test completed successfully",
+      "timestamp": 1772899895.014709
+    },
+    {
+      "name": "Monitoring Service Health",
+      "status": "PASS",
+      "duration": 3.042259454727173,
+      "details": "Test completed successfully",
+      "timestamp": 1772899898.0569685
+    },
+    {
+      "name": "Prometheus Connectivity",
+      "status": "FAIL",
+      "duration": 4.056941986083984,
+      "details": "Test failed",
+      "timestamp": 1772899902.1139104
+    },
+    {
+      "name": "Grafana Connectivity",
+      "status": "FAIL",
+      "duration": 4.066936731338501,
+      "details": "Test failed",
+      "timestamp": 1772899906.1818624
+    },
+    {
+      "name": "AlertManager Connectivity",
+      "status": "FAIL",
+      "duration": 4.042426109313965,
+      "details": "Test failed",
+      "timestamp": 1772899910.2253015
+    },
+    {
+      "name": "System Metrics Endpoint",
+      "status": "FAIL",
+      "duration": 2.038586139678955,
+      "details": "Test failed",
+      "timestamp": 1772899912.2638876
+    },
+    {
+      "name": "Container Metrics Endpoint",
+      "status": "FAIL",
+      "duration": 2.032263994216919,
+      "details": "Test failed",
+      "timestamp": 1772899914.2961516
+    },
+    {
+      "name": "Prometheus Metrics Endpoint",
+      "status": "FAIL",
+      "duration": 2.1250243186950684,
+      "details": "Test failed",
+      "timestamp": 1772899916.4217236
+    },
+    {
+      "name": "Alert Management",
+      "status": "FAIL",
+      "duration": 2.033628225326538,
+      "details": "Test failed",
+      "timestamp": 1772899918.4553518
+    },
+    {
+      "name": "Dashboard Generation",
+      "status": "FAIL",
+      "duration": 2.0327486991882324,
+      "details": "Test failed",
+      "timestamp": 1772899920.4881005
+    },
+    {
+      "name": "Performance Benchmarks",
+      "status": "FAIL",
+      "duration": 2.0428466796875,
+      "details": "Test failed",
+      "timestamp": 1772899922.5315187
+    },
+    {
+      "name": "Error Handling",
+      "status": "FAIL",
+      "duration": 4.055076599121094,
+      "details": "Test failed",
+      "timestamp": 1772899926.5871704
+    }
+  ],
+  "timestamp": 1772899926.5877192
+}

@@ -1,0 +1,73 @@
+{
+  "test_summary": {
+    "total_tests": 9,
+    "passed": 1,
+    "failed": 7,
+    "skipped": 1
+  },
+  "metrics": {
+    "healthy_endpoints": 0,
+    "prometheus_targets": 5,
+    "grafana_dashboards": 3,
+    "alertmanager_rules": 8,
+    "scrape_interval": "15s",
+    "evaluation_interval": "15s"
+  },
+  "test_results": [
+    {
+      "test": "Docker Compose Validation",
+      "status": "FAIL",
+      "details": "'docker-compose' is not recognized as an internal or external command,\noperable program or batch file.\n",
+      "timestamp": "2026-03-07T21:40:13.702727"
+    },
+    {
+      "test": "Prometheus Config",
+      "status": "FAIL",
+      "details": "'docker' is not recognized as an internal or external command,\noperable program or batch file.\n",
+      "timestamp": "2026-03-07T21:40:13.742729"
+    },
+    {
+      "test": "Grafana Dashboards",
+      "status": "SKIP",
+      "details": "Grafana config directory not found",
+      "timestamp": "2026-03-07T21:40:13.742729"
+    },
+    {
+      "test": "AlertManager Config",
+      "status": "FAIL",
+      "details": "'docker' is not recognized as an internal or external command,\noperable program or batch file.\n",
+      "timestamp": "2026-03-07T21:40:13.775167"
+    },
+    {
+      "test": "Stack Startup",
+      "status": "FAIL",
+      "details": "'docker-compose' is not recognized as an internal or external command,\noperable program or batch file.\n",
+      "timestamp": "2026-03-07T21:40:13.817713"
+    },
+    {
+      "test": "Prometheus Endpoint",
+      "status": "FAIL",
+      "details": "Service not responding",
+      "timestamp": "2026-03-07T21:40:46.297237"
+    },
+    {
+      "test": "Grafana Endpoint",
+      "status": "FAIL",
+      "details": "Service not responding",
+      "timestamp": "2026-03-07T21:40:48.653698"
+    },
+    {
+      "test": "AlertManager Endpoint",
+      "status": "FAIL",
+      "details": "Service not responding",
+      "timestamp": "2026-03-07T21:40:51.018671"
+    },
+    {
+      "test": "Performance Metrics",
+      "status": "PASS",
+      "details": "Collecting 5 targets",
+      "timestamp": "2026-03-07T21:40:51.056964"
+    }
+  ],
+  "timestamp": "2026-03-07T21:40:51.057963"
+}

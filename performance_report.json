@@ -1,0 +1,106 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-07T21:46:26.349784",
+    "report_version": "1.0.0",
+    "author": "Gedi Harish",
+    "github": "github.com/harishgedi"
+  },
+  "system_performance": {
+    "timestamp": "2026-03-07T21:46:28.136748",
+    "cpu": {
+      "usage_percent": 96.9,
+      "core_count": 4,
+      "frequency_mhz": 2300.0,
+      "load_average": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "memory": {
+      "total_gb": 11.86893081665039,
+      "available_gb": 0.8259048461914062,
+      "used_gb": 11.043025970458984,
+      "usage_percent": 93.0,
+      "swap_total_gb": 13.5,
+      "swap_used_gb": 2.8784942626953125,
+      "swap_percent": 21.3
+    },
+    "disk": {
+      "total_gb": 136.71874618530273,
+      "free_gb": 107.38478088378906,
+      "used_gb": 29.333965301513672,
+      "usage_percent": 21.5,
+      "read_bytes": 91040516096,
+      "write_bytes": 67474283520
+    },
+    "network": {
+      "bytes_sent": 573498847,
+      "bytes_recv": 3646546504,
+      "packets_sent": 861201,
+      "packets_recv": 2876834
+    },
+    "system": {
+      "uptime_hours": 27.42888888888889,
+      "process_count": 333,
+      "boot_time": "2026-03-06T18:20:44.136749"
+    }
+  },
+  "api_performance": {
+    "/health": {
+      "status_code": 200,
+      "response_time_ms": 2385.75,
+      "response_size_bytes": 101,
+      "success": true
+    },
+    "/api/system-metrics": {
+      "status_code": 404,
+      "response_time_ms": 2046.6,
+      "response_size_bytes": 22,
+      "success": false
+    },
+    "/api/container-metrics": {
+      "status_code": 404,
+      "response_time_ms": 2046.39,
+      "response_size_bytes": 22,
+      "success": false
+    },
+    "/metrics": {
+      "status_code": 200,
+      "response_time_ms": 2046.38,
+      "response_size_bytes": 4520,
+      "success": true
+    },
+    "/alerts": {
+      "status_code": 404,
+      "response_time_ms": 2062.15,
+      "response_size_bytes": 22,
+      "success": false
+    },
+    "/dashboards": {
+      "status_code": 404,
+      "response_time_ms": 2022.96,
+      "response_size_bytes": 22,
+      "success": false
+    }
+  },
+  "application_metrics": {},
+  "performance_analysis": {
+    "api_health": {
+      "total_endpoints": 6,
+      "successful_endpoints": 2,
+      "success_rate": 33.33333333333333
+    },
+    "response_time_analysis": {
+      "avg_response_time_ms": 2101.705,
+      "max_response_time_ms": 2385.75,
+      "min_response_time_ms": 2022.96
+    },
+    "system_health": {
+      "cpu_usage": 96.9,
+      "memory_usage": 93.0,
+      "disk_usage": 21.5,
+      "uptime_hours": 27.42888888888889
+    }
+  }
+}

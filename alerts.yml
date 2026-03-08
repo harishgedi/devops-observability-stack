@@ -1,0 +1,36 @@
+rules:
+- annotations: null
+  duration: 1m
+  expr: system_cpu_percent > 80
+  labels: null
+  message: CPU usage is above 80% for more than 1 minute
+  name: HighCPUUsage
+  severity: warning
+- annotations: null
+  duration: 1m
+  expr: system_memory_percent > 85
+  labels: null
+  message: Memory usage is above 85% for more than 1 minute
+  name: HighMemoryUsage
+  severity: warning
+- annotations: null
+  duration: 1m
+  expr: system_disk_usage_percent > 90
+  labels: null
+  message: Disk usage is above 90% for more than 1 minute
+  name: HighDiskUsage
+  severity: critical
+- annotations: null
+  duration: 1m
+  expr: container_status != 'running'
+  labels: null
+  message: Container {{ $labels.name }} is down
+  name: ContainerDown
+  severity: critical
+- annotations: null
+  duration: 1m
+  expr: system_load_average_1m > 2.0
+  labels: null
+  message: System load average is high
+  name: HighLoadAverage
+  severity: warning
